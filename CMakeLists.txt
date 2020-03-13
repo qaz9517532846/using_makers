@@ -86,12 +86,6 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * uncomment the "generate_dynamic_reconfigure_options" section below
 ##     and list every .cfg file to be processed
 
-add_executable(basic_shapes src/basic_shapes.cpp)
-target_link_libraries(basic_shapes ${catkin_LIBRARIES})
-
-add_executable(points_and_lines src/points_and_lines.cpp)
-target_link_libraries(points_and_lines ${catkin_LIBRARIES})
-
 ## Generate dynamic reconfigure parameters in the 'cfg' folder
 # generate_dynamic_reconfigure_options(
 #   cfg/DynReconf1.cfg
@@ -129,6 +123,12 @@ include_directories(
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/using_makers.cpp
 # )
+
+add_executable(basic_shapes src/basic_shapes.cpp)
+target_link_libraries(basic_shapes ${catkin_LIBRARIES})
+
+add_executable(points_and_lines src/points_and_lines.cpp)
+target_link_libraries(points_and_lines ${catkin_LIBRARIES})
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
