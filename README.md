@@ -1,6 +1,6 @@
 # using_makers
 ROS maker Example.
-[This link](http://wiki.ros.org/rviz/DisplayTypes/Marker) about using_makers imform.
+[This link](http://wiki.ros.org/rviz/DisplayTypes/Marker) about using_makers imformation.
 
 show basic shape in rviz
 ``` bash
