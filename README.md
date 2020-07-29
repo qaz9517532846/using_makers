@@ -4,7 +4,7 @@ ROS maker Example.
 
 show basic shape in rviz
 ``` bash
-$ rosrun using makers basic_shapes
+$ rosrun using_makers basic_shapes
 ```
 ``` bash
 $ rosrun rviz rviz
@@ -12,7 +12,7 @@ $ rosrun rviz rviz
 
 show points and lines in rviz
 ``` bash
-$ rosrun using makers points_and_lines
+$ rosrun using_makers points_and_lines
 ```
 ``` bash
 $ rosrun rviz rviz
